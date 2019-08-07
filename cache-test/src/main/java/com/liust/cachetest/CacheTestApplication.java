@@ -23,7 +23,7 @@ public class CacheTestApplication {
   @PostConstruct
   public void init() throws SQLException {
     // iLocalCacheManager.createTable();
-    iLocalCacheManager.insert(1, "哈哈");
+    //  iLocalCacheManager.insert(1, "哈哈");
     iLocalCacheManager.selectAll();
   }
 }

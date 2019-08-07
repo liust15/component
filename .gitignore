@@ -10,3 +10,4 @@ gen
 /cache-test/build/
 /cache-core/build/
 /cache-starter/build/
+/.gradle/
