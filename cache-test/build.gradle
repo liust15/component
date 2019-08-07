@@ -1,0 +1,6 @@
+dependencies {
+    compile project(":cache-starter")
+    compileOnly("org.springframework.boot:spring-boot-starter:${springBootVersion}")
+    compileOnly("org.springframework.boot:spring-boot-configuration-processor:${springBootVersion}")
+    testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+}
