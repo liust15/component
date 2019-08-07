@@ -17,6 +17,9 @@ public class CacheTestApplication {
   @Autowired
   private ILocalCacheManager iLocalCacheManager;
 
+  /*
+   * 测试使用
+   * */
   @PostConstruct
   public void init() throws SQLException {
     // iLocalCacheManager.createTable();
